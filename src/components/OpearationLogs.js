@@ -9,8 +9,10 @@ const OperationLogs = () => {
       <h4>Operation Logs</h4>
       <table className="table table-hover">
         <thead>
-          <th>内容</th>
-          <th>日時</th>
+          <tr>
+            <th>内容</th>
+            <th>日時</th>
+          </tr>
         </thead>
         <tbody>
           {
